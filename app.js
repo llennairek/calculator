@@ -79,6 +79,11 @@ function getResult() {
     default:
       break;
   }
+  result = "";
+  operator = "";
+  nextInput = "";
+  flag = true;
+  displayOperator.innerHTML = "";
 
 }
 

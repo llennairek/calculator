@@ -15,7 +15,12 @@ body {
 .calculator {
   width: 50vw;
   height: 50vh;
-  border: 1px solid #494343;
+  border: 3px solid #494343;
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 600px;
+  min-height: 400px;
+  background-color: #494343;
 }
 
 .display {
